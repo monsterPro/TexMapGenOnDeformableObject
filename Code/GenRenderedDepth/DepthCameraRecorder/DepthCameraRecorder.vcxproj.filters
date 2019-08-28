@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SensorInterface">
+      <UniqueIdentifier>{c0db1bd8-db68-4f60-91c4-0df9eeee152b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glad">
+      <UniqueIdentifier>{8b12dce4-a802-4a97-9972-be1d84909b8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JGLib">
+      <UniqueIdentifier>{e73f5c7a-f227-46d2-82ba-14af1afb6662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{9d9ef1da-7fe9-4f01-9532-630c4cef2904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{0a8a06ad-b5ce-4b6f-93c3-b361cf90632c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intrinsic">
+      <UniqueIdentifier>{393243b3-f39d-4945-9fd8-67c0b0d242a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SensorInterface\KinectOne.cpp">
+      <Filter>SensorInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="SensorInterface\OpenNIControl.cpp">
+      <Filter>SensorInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="SensorInterface\RGBDSensor.cpp">
+      <Filter>SensorInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\glad\glad.c">
+      <Filter>glad</Filter>
+    </ClCompile>
+    <ClCompile Include="JGLib\Graphic_util.cpp">
+      <Filter>JGLib</Filter>
+    </ClCompile>
+    <ClCompile Include="JGLib\JGRLibCommon.cpp">
+      <Filter>JGLib</Filter>
+    </ClCompile>
+    <ClCompile Include="JGLib\Model.cpp">
+      <Filter>JGLib</Filter>
+    </ClCompile>
+    <ClCompile Include="JGLib\ScanToMesh.cpp">
+      <Filter>JGLib</Filter>
+    </ClCompile>
+    <ClCompile Include="JGLib\Util.cpp">
+      <Filter>JGLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders\Shader.cpp">
+      <Filter>Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderToTexture.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="IntrinsicDecom.cpp">
+      <Filter>Intrinsic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SensorInterface\KinectOne.h">
+      <Filter>SensorInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorInterface\OpenNIControl.h">
+      <Filter>SensorInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorInterface\RGBDSensor.h">
+      <Filter>SensorInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="JGLib\Graphic_util.h">
+      <Filter>JGLib</Filter>
+    </ClInclude>
+    <ClInclude Include="JGLib\JGRLibCommon.h">
+      <Filter>JGLib</Filter>
+    </ClInclude>
+    <ClInclude Include="JGLib\Mesh.h">
+      <Filter>JGLib</Filter>
+    </ClInclude>
+    <ClInclude Include="JGLib\MeshIO.h">
+      <Filter>JGLib</Filter>
+    </ClInclude>
+    <ClInclude Include="JGLib\Model.h">
+      <Filter>JGLib</Filter>
+    </ClInclude>
+    <ClInclude Include="JGLib\ParameterFile.h">
+      <Filter>JGLib</Filter>
+    </ClInclude>
+    <ClInclude Include="JGLib\PlyHeader.h">
+      <Filter>JGLib</Filter>
+    </ClInclude>
+    <ClInclude Include="JGLib\ScanToMesh.h">
+      <Filter>JGLib</Filter>
+    </ClInclude>
+    <ClInclude Include="JGLib\SparseHashingGrid3.h">
+      <Filter>JGLib</Filter>
+    </ClInclude>
+    <ClInclude Include="JGLib\stringUtil.h">
+      <Filter>JGLib</Filter>
+    </ClInclude>
+    <ClInclude Include="JGLib\stringUtilConvert.h">
+      <Filter>JGLib</Filter>
+    </ClInclude>
+    <ClInclude Include="JGLib\Util.h">
+      <Filter>JGLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Shader.h">
+      <Filter>Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="JGLib\ImageUtils.h">
+      <Filter>JGLib</Filter>
+    </ClInclude>
+    <ClInclude Include="JGLib\MatrixConversion.h">
+      <Filter>JGLib</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderToTexture.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntrinsicDecom.h">
+      <Filter>Intrinsic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\FragmentShader.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\VertexShader.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
