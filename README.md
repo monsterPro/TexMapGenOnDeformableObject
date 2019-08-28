@@ -1,2 +1,2 @@
 # TexMapGenOnDeformableObject
-Global Texture Mapping for Dynamic Objects (Pacific Graphics 2019)
+Global Texture Mapping for Dynamic Objects (To be appeared in Pacific Graphics 2019)
