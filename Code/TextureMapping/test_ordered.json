@@ -1,0 +1,44 @@
+{
+   "case_template" : {
+      "start_idx" : 0,
+      "end_idx" : 480,
+      "is_viewer" : true,
+      "data_root_path" : "../Data/",
+      "stream_path" : "",
+      "atlas_path" : "",
+      "tex_mesh_path" : "",
+
+      "mapper4D" : {
+         "c_d_extrinsic" : 0,
+         "color_intrinsic" : 0,
+         "depth_intrinsic" : 0,
+         "depth_test" : 0.050000000000000003,
+         "layer_number" : 5
+      },
+
+      "optimizer" : {
+         "atlas_side_length" : 10,
+         "edge_weight" : 127.5,
+         "max_img_per_face" : 20,
+         "max_img_per_vertex" : 30,
+         "max_nb_face_per_vertex" : 10,
+         "opt_iter_per_layer" : 200,
+         "sampling_number" : 15,
+         "sampling_weights" : 10
+      },
+
+      "renderer" : {
+         "camera_positions" : "",
+         "shader_atlas" : "",
+         "shader_model" : ""
+      },
+
+      "simplifier" : {
+         "div_per_layer" : 2
+      },
+      
+      "any" : {
+         "is_record" : false
+      }
+   }
+}

@@ -1,0 +1,281 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart*.dll" "D:\PG2019\code\bin\Release\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart32_91.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart64_91.dll
+          2개 파일이 복사되었습니다.
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\atlas.f.glsl
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\atlas.v.glsl
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\mask.f.glsl
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\mask.v.glsl
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\model.f.glsl
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\model.v.glsl
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\sub_atlas.f.glsl
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\sub_atlas.v.glsl
+  8개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+  Mapper4D.cpp
+D:\PG2019\code\TextureMappingNonRigid\include\config_utils.h(65): warning C4091: 'typedef ': ignored on left of 'TexMap::Part' when no variable is declared
+d:\pg2019\code\texturemappingnonrigid\include\TriangleAndVertex.h(75): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\TriangleAndVertex.h(90): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\TriangleAndVertex.h(112): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\TriangleAndVertex.h(113): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+src\Mapper4D.cpp(28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+src\Mapper4D.cpp(29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+src\Mapper4D.cpp(53): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(77): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+src\Mapper4D.cpp(78): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+src\Mapper4D.cpp(91): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+src\Mapper4D.cpp(92): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+src\Mapper4D.cpp(102): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(105): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(120): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(128): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(141): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(144): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(162): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+src\Mapper4D.cpp(165): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(168): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(209): warning C4244: 'argument': conversion from 'unsigned __int64' to 'float', possible loss of data
+src\Mapper4D.cpp(240): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(292): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(295): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(312): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+src\Mapper4D.cpp(313): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+src\Mapper4D.cpp(314): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+src\Mapper4D.cpp(325): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(336): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(358): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(377): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'float', possible loss of data
+src\Mapper4D.cpp(381): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+src\Mapper4D.cpp(385): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+src\Mapper4D.cpp(422): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(466): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(472): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+src\Mapper4D.cpp(479): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(491): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(499): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(135): warning C4101: '_Pixel_IR': unreferenced local variable
+src\Mapper4D.cpp(133): warning C4101: '_Point_IR': unreferenced local variable
+src\Mapper4D.cpp(519): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+src\Mapper4D.cpp(538): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+src\Mapper4D.cpp(561): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+src\Mapper4D.cpp(637): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(707): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+src\Mapper4D.cpp(719): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(758): warning C4244: 'argument': conversion from 'unsigned __int64' to 'float', possible loss of data
+src\Mapper4D.cpp(780): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(821): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+src\Mapper4D.cpp(670): warning C4101: '_Pixel_IR': unreferenced local variable
+src\Mapper4D.cpp(668): warning C4101: '_Point_IR': unreferenced local variable
+src\Mapper4D.cpp(877): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+src\Mapper4D.cpp(905): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(906): warning C4018: '<': signed/unsigned mismatch
+src\Mapper4D.cpp(910): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+src\Mapper4D.cpp(910): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+src\Mapper4D.cpp(1029): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+src\Mapper4D.cpp(1030): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(200): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'float', possible loss of data
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(737): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<unsigned int,unsigned __int64,void,0>(std::pair<unsigned int,unsigned __int64> &&) noexcept' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(737): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<unsigned int,unsigned __int64,void,0>(std::pair<unsigned int,unsigned __int64> &&) noexcept' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(857): note: see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>,
+              _Ty=std::pair<unsigned int,unsigned __int64>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(857): note: see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>,
+              _Ty=std::pair<unsigned int,unsigned __int64>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(996): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<unsigned int,unsigned __int64>>(std::allocator<_Other> &,_Objty *,std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const uint,float>,void *>>,
+              _Ty=std::pair<const uint,float>,
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(995): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<unsigned int,unsigned __int64>>(std::allocator<_Other> &,_Objty *,std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const uint,float>,void *>>,
+              _Ty=std::pair<const uint,float>,
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtree(889): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<unsigned int,unsigned __int64>>(_Ty *,std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Ty=std::pair<const uint,float>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtree(887): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<unsigned int,unsigned __int64>>(_Ty *,std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Ty=std::pair<const uint,float>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtree(1076): note: see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_comp_alloc<_Traits>::_Buynode<std::pair<unsigned int,unsigned __int64>>(std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Traits=std::_Tmap_traits<uint,float,std::less<uint>,std::allocator<std::pair<const uint,float>>,false>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtree(1076): note: see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_comp_alloc<_Traits>::_Buynode<std::pair<unsigned int,unsigned __int64>>(std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Traits=std::_Tmap_traits<uint,float,std::less<uint>,std::allocator<std::pair<const uint,float>>,false>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\map(194): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<unsigned int,unsigned __int64>>(std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Pr=std::less<uint>,
+              _Alloc=std::allocator<std::pair<const uint,float>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\map(194): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<unsigned int,unsigned __int64>>(std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Pr=std::less<uint>,
+              _Alloc=std::allocator<std::pair<const uint,float>>
+          ]
+  src\Mapper4D.cpp(365): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::insert<std::pair<unsigned int,unsigned __int64>,void>(_Valty &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Valty=std::pair<unsigned int,unsigned __int64>
+          ]
+  src\Mapper4D.cpp(365): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::insert<std::pair<unsigned int,unsigned __int64>,void>(_Valty &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Valty=std::pair<unsigned int,unsigned __int64>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(200): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(737): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<unsigned int,double,void,0>(std::pair<unsigned int,double> &&) noexcept' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(737): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<unsigned int,double,void,0>(std::pair<unsigned int,double> &&) noexcept' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(857): note: see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>,
+              _Ty=std::pair<unsigned int,double>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(857): note: see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>,
+              _Ty=std::pair<unsigned int,double>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(996): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<unsigned int,double>>(std::allocator<_Other> &,_Objty *,std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const uint,float>,void *>>,
+              _Ty=std::pair<const uint,float>,
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xmemory0(995): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<unsigned int,double>>(std::allocator<_Other> &,_Objty *,std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const uint,float>,void *>>,
+              _Ty=std::pair<const uint,float>,
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtree(889): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<unsigned int,double>>(_Ty *,std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Ty=std::pair<const uint,float>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtree(887): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<unsigned int,double>>(_Ty *,std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Ty=std::pair<const uint,float>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtree(1076): note: see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_comp_alloc<_Traits>::_Buynode<std::pair<unsigned int,double>>(std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Traits=std::_Tmap_traits<uint,float,std::less<uint>,std::allocator<std::pair<const uint,float>>,false>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\xtree(1076): note: see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_comp_alloc<_Traits>::_Buynode<std::pair<unsigned int,double>>(std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Traits=std::_Tmap_traits<uint,float,std::less<uint>,std::allocator<std::pair<const uint,float>>,false>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\map(194): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<unsigned int,double>>(std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Pr=std::less<uint>,
+              _Alloc=std::allocator<std::pair<const uint,float>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\map(194): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<unsigned int,double>>(std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Pr=std::less<uint>,
+              _Alloc=std::allocator<std::pair<const uint,float>>
+          ]
+  src\Mapper4D.cpp(367): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::insert<std::pair<unsigned int,double>,void>(_Valty &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Valty=std::pair<unsigned int,double>
+          ]
+  src\Mapper4D.cpp(367): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::insert<std::pair<unsigned int,double>,void>(_Valty &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Valty=std::pair<unsigned int,double>
+          ]
+  Generating code
+  287 of 9895 functions ( 2.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    12 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  TextureMappingNonRigid.vcxproj -> D:\PG2019\code\bin\Release\TextureMappingNonRigid.exe
+  TextureMappingNonRigid.vcxproj -> D:\PG2019\code\bin\Release\TextureMappingNonRigid.pdb (Full PDB)

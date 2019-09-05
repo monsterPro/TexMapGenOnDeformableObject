@@ -1,0 +1,668 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart*.dll" "D:\PG2019\code\bin\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart32_91.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart64_91.dll
+          2개 파일이 복사되었습니다.
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\atlas.f.glsl
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\atlas.v.glsl
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\mask.f.glsl
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\mask.v.glsl
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\model.f.glsl
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\model.v.glsl
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\sub_atlas.f.glsl
+  D:\PG2019\code\TextureMappingNonRigid\\shaders\sub_atlas.v.glsl
+  8개 파일이 복사되었습니다.
+          1개 파일이 복사되었습니다.
+  Compiling CUDA source file src\Optimizer.cu...
+  
+  D:\PG2019\code\TextureMappingNonRigid>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_SCL_SECURE_NO_WARNINGS -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DWIN32 -DWIN64 -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\Optimizer.cu.obj "D:\PG2019\code\TextureMappingNonRigid\src\Optimizer.cu" 
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(838): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(1772): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(2628): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(3477): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(4417): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(5319): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(6229): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7104): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7914): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h(776): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h(1636): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\sm_20_intrinsics.h(925): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+D:\PG2019\code\include\opencv2/dnn/dnn.inl.hpp(264): warning : statement is unreachable
+D:\PG2019\code\include\opencv2/dnn/dnn.inl.hpp(267): warning : statement is unreachable
+D:\PG2019\code\include\opencv2/dnn/dnn.inl.hpp(270): warning : statement is unreachable
+D:\PG2019\code\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+D:\PG2019\code\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+D:\PG2019\code\include\opencv2/videostab/motion_stabilizing.hpp(106): warning : function "cv::videostab::IMotionStabilizer::stabilize(int, const std::vector<cv::Mat, std::allocator<cv::Mat>> &, std::pair<int, int>, cv::Mat *)" is hidden by "cv::videostab::GaussianMotionFilter::stabilize" -- virtual function override intended?
+D:\PG2019\code\TextureMappingNonRigid\include\config_utils.h(65): warning : declaration requires a typedef name
+d:\pg2019\code\texturemappingnonrigid\include\Mapper4D.h(183): warning : reference is to variable "i"
+d:\pg2019\code\texturemappingnonrigid\include\Mapper4D.h(185): warning : reference is to variable "i"
+d:\pg2019\code\texturemappingnonrigid\include\Mapper4D.h(188): warning : reference is to variable "i"
+d:\pg2019\code\include\glm\detail/type_vec2.hpp(89): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec2.hpp(89): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec2.hpp(90): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec2.hpp(90): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec2.hpp(131): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_vec2.hpp(131): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_vec3.hpp(89): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec3.hpp(89): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec3.hpp(90): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec3.hpp(90): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec3.hpp(152): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_vec3.hpp(152): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_vec4.hpp(92): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec4.hpp(92): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec4.hpp(93): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec4.hpp(93): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec4.hpp(197): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_vec4.hpp(197): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x2.hpp(37): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x2.hpp(37): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x2.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x2.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x2.hpp(78): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x2.hpp(78): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x3.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x3.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x3.hpp(39): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x3.hpp(39): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x3.hpp(79): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x3.hpp(79): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x4.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x4.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x4.hpp(39): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x4.hpp(39): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x4.hpp(81): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x4.hpp(81): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x2.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x2.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x2.hpp(39): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x2.hpp(39): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x2.hpp(86): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x2.hpp(86): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x3.hpp(37): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x3.hpp(37): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x3.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x3.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x3.hpp(85): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x3.hpp(85): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x4.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x4.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x4.hpp(39): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x4.hpp(39): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x4.hpp(86): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x4.hpp(86): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x2.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x2.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x2.hpp(39): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x2.hpp(39): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x2.hpp(91): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x2.hpp(91): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x3.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x3.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x3.hpp(39): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x3.hpp(39): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x3.hpp(91): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x3.hpp(91): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x4.hpp(37): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x4.hpp(37): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x4.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x4.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x4.hpp(90): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x4.hpp(90): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail\../ext/vec1.hpp(104): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail\../ext/vec1.hpp(104): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail\../ext/vec1.hpp(105): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail\../ext/vec1.hpp(105): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail\../ext/vec1.hpp(141): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail\../ext/vec1.hpp(141): warning : __host__ annotation on a defaulted function("operator=") is ignored
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(292): warning : variable "imgidx1" was declared but never referenced
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(292): warning : variable "imgidx2" was declared but never referenced
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(292): warning : variable "imgidx3" was declared but never referenced
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(290): warning : variable "sampling_weights_current" was set but never used
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(524): warning : reference is to variable "i"
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(525): warning : reference is to variable "i"
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(504): warning : variable "layeriter" was declared but never referenced
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(604): warning : variable "f_idx" was declared but never referenced
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(709): warning : variable "remain_pre_layer" was set but never used
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(118): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(124): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(118): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(124): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(118): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(124): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(118): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(124): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(118): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(124): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(118): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(118): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(124): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(124): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(118): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(118): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(124): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(124): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(118): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(118): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(124): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(124): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(118): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(118): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(124): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(124): warning : statement is unreachable
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(838): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(1772): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(2628): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(3477): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(4417): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(5319): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(6229): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7104): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7914): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h(776): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt/device_functions.h(1636): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\sm_20_intrinsics.h(925): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+D:\PG2019\code\include\opencv2/dnn/dnn.inl.hpp(264): warning : statement is unreachable
+D:\PG2019\code\include\opencv2/dnn/dnn.inl.hpp(267): warning : statement is unreachable
+D:\PG2019\code\include\opencv2/dnn/dnn.inl.hpp(270): warning : statement is unreachable
+d:\pg2019\code\include\opencv2\flann\lsh_table.h(220): warning : statement is unreachable
+d:\pg2019\code\include\opencv2\flann\lsh_table.h(225): warning : statement is unreachable
+d:\pg2019\code\include\opencv2\flann\lsh_table.h(234): warning : statement is unreachable
+d:\pg2019\code\include\opencv2\flann\index_testing.h(248): warning : variable "p1" was set but never used
+D:\PG2019\code\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+D:\PG2019\code\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+D:\PG2019\code\include\opencv2/videostab/motion_stabilizing.hpp(106): warning : function "cv::videostab::IMotionStabilizer::stabilize(int, const std::vector<cv::Mat, std::allocator<cv::Mat>> &, std::pair<int, int>, cv::Mat *)" is hidden by "cv::videostab::GaussianMotionFilter::stabilize" -- virtual function override intended?
+D:\PG2019\code\TextureMappingNonRigid\include\config_utils.h(65): warning : declaration requires a typedef name
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(118): warning : statement is unreachable
+D:\PG2019\code\include\OpenMesh/Core/IO/SR_binary.hh(124): warning : statement is unreachable
+d:\pg2019\code\texturemappingnonrigid\include\Mapper4D.h(183): warning : reference is to variable "i"
+d:\pg2019\code\texturemappingnonrigid\include\Mapper4D.h(185): warning : reference is to variable "i"
+d:\pg2019\code\texturemappingnonrigid\include\Mapper4D.h(188): warning : reference is to variable "i"
+d:\pg2019\code\include\glm\detail/type_vec2.hpp(89): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec2.hpp(89): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec2.hpp(90): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec2.hpp(90): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec2.hpp(131): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_vec2.hpp(131): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_vec3.hpp(89): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec3.hpp(89): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec3.hpp(90): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec3.hpp(90): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec3.hpp(152): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_vec3.hpp(152): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_vec4.hpp(92): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec4.hpp(92): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec4.hpp(93): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec4.hpp(93): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail/type_vec4.hpp(197): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_vec4.hpp(197): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x2.hpp(37): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x2.hpp(37): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x2.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x2.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x2.hpp(78): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x2.hpp(78): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x3.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x3.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x3.hpp(39): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x3.hpp(39): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x3.hpp(79): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x3.hpp(79): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x4.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x4.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x4.hpp(39): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x4.hpp(39): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x4.hpp(81): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat2x4.hpp(81): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x2.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x2.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x2.hpp(39): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x2.hpp(39): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x2.hpp(86): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x2.hpp(86): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x3.hpp(37): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x3.hpp(37): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x3.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x3.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x3.hpp(85): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x3.hpp(85): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x4.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x4.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x4.hpp(39): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x4.hpp(39): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x4.hpp(86): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat3x4.hpp(86): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x2.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x2.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x2.hpp(39): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x2.hpp(39): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x2.hpp(91): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x2.hpp(91): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x3.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x3.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x3.hpp(39): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x3.hpp(39): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x3.hpp(91): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x3.hpp(91): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x4.hpp(37): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x4.hpp(37): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x4.hpp(38): warning : __device__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x4.hpp(38): warning : __host__ annotation on a defaulted function("mat") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x4.hpp(90): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail/type_mat4x4.hpp(90): warning : __host__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail\../ext/vec1.hpp(104): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail\../ext/vec1.hpp(104): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail\../ext/vec1.hpp(105): warning : __device__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail\../ext/vec1.hpp(105): warning : __host__ annotation on a defaulted function("vec") is ignored
+d:\pg2019\code\include\glm\detail\../ext/vec1.hpp(141): warning : __device__ annotation on a defaulted function("operator=") is ignored
+d:\pg2019\code\include\glm\detail\../ext/vec1.hpp(141): warning : __host__ annotation on a defaulted function("operator=") is ignored
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(292): warning : variable "imgidx1" was declared but never referenced
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(292): warning : variable "imgidx2" was declared but never referenced
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(292): warning : variable "imgidx3" was declared but never referenced
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(290): warning : variable "sampling_weights_current" was set but never used
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(524): warning : reference is to variable "i"
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(525): warning : reference is to variable "i"
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(504): warning : variable "layeriter" was declared but never referenced
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(604): warning : variable "f_idx" was declared but never referenced
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(709): warning : variable "remain_pre_layer" was set but never used
+  Optimizer.cu
+d:\pg2019\code\texturemappingnonrigid\include\TriangleAndVertex.h(75): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\TriangleAndVertex.h(90): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\TriangleAndVertex.h(112): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\TriangleAndVertex.h(113): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(645): warning C4267: '=': conversion from 'size_t' to 'uint', possible loss of data
+D:/PG2019/code/TextureMappingNonRigid/src/Optimizer.cu(763): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(838): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(1772): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(2628): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(3477): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(4417): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(5319): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(6229): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7104): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.1\include\crt\math_functions.h(7914): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  Mapper4D.cpp
+d:\pg2019\code\texturemappingnonrigid\include\config_utils.h(65): warning C4091: 'typedef ': ignored on left of 'TexMap::Part' when no variable is declared
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(75): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(90): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(112): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(113): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(28): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(53): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(77): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(78): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(91): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(92): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(102): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(105): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(120): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(128): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(141): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(144): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(162): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(165): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(168): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(230): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(281): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(284): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(301): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(302): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(303): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(314): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(325): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(347): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(366): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(370): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(374): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(411): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(455): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(461): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(468): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(480): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(488): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(135): warning C4101: '_Pixel_IR': unreferenced local variable
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(133): warning C4101: '_Point_IR': unreferenced local variable
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(507): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(526): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(549): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(625): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(695): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(707): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(762): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(803): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(658): warning C4101: '_Pixel_IR': unreferenced local variable
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(656): warning C4101: '_Point_IR': unreferenced local variable
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(859): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(887): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(888): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(892): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(892): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(1009): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(1010): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\utility(200): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'float', possible loss of data
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(737): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<unsigned int,unsigned __int64,void,0>(std::pair<unsigned int,unsigned __int64> &&) noexcept' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(737): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<unsigned int,unsigned __int64,void,0>(std::pair<unsigned int,unsigned __int64> &&) noexcept' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(857): note: see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>,
+              _Ty=std::pair<unsigned int,unsigned __int64>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(857): note: see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>,
+              _Ty=std::pair<unsigned int,unsigned __int64>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(996): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<unsigned int,unsigned __int64>>(std::allocator<_Other> &,_Objty *,std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const uint,float>,void *>>,
+              _Ty=std::pair<const uint,float>,
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(995): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<unsigned int,unsigned __int64>>(std::allocator<_Other> &,_Objty *,std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const uint,float>,void *>>,
+              _Ty=std::pair<const uint,float>,
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(889): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<unsigned int,unsigned __int64>>(_Ty *,std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Ty=std::pair<const uint,float>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(887): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<unsigned int,unsigned __int64>>(_Ty *,std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Ty=std::pair<const uint,float>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1076): note: see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_comp_alloc<_Traits>::_Buynode<std::pair<unsigned int,unsigned __int64>>(std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Traits=std::_Tmap_traits<uint,float,std::less<uint>,std::allocator<std::pair<const uint,float>>,false>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1076): note: see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_comp_alloc<_Traits>::_Buynode<std::pair<unsigned int,unsigned __int64>>(std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Traits=std::_Tmap_traits<uint,float,std::less<uint>,std::allocator<std::pair<const uint,float>>,false>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(194): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<unsigned int,unsigned __int64>>(std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Pr=std::less<uint>,
+              _Alloc=std::allocator<std::pair<const uint,float>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(194): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<unsigned int,unsigned __int64>>(std::pair<unsigned int,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Pr=std::less<uint>,
+              _Alloc=std::allocator<std::pair<const uint,float>>
+          ]
+  d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(354): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::insert<std::pair<unsigned int,unsigned __int64>,void>(_Valty &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Valty=std::pair<unsigned int,unsigned __int64>
+          ]
+  d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(354): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::insert<std::pair<unsigned int,unsigned __int64>,void>(_Valty &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Valty=std::pair<unsigned int,unsigned __int64>
+          ]
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\utility(200): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(737): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<unsigned int,double,void,0>(std::pair<unsigned int,double> &&) noexcept' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(737): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<unsigned int,double,void,0>(std::pair<unsigned int,double> &&) noexcept' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(857): note: see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>,
+              _Ty=std::pair<unsigned int,double>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(857): note: see reference to function template instantiation 'void std::allocator<_Other>::construct<_Objty,_Ty>(_Objty *,_Ty &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>,
+              _Ty=std::pair<unsigned int,double>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(996): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<unsigned int,double>>(std::allocator<_Other> &,_Objty *,std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const uint,float>,void *>>,
+              _Ty=std::pair<const uint,float>,
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0(995): note: see reference to function template instantiation 'void std::allocator_traits<_Alloc>::construct<_Ty,std::pair<unsigned int,double>>(std::allocator<_Other> &,_Objty *,std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const uint,float>,void *>>,
+              _Ty=std::pair<const uint,float>,
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Objty=std::pair<const uint,float>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(889): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<unsigned int,double>>(_Ty *,std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Ty=std::pair<const uint,float>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(887): note: see reference to function template instantiation 'void std::_Wrap_alloc<std::allocator<_Other>>::construct<_Ty,std::pair<unsigned int,double>>(_Ty *,std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Other=std::_Tree_node<std::pair<const uint,float>,void *>,
+              _Ty=std::pair<const uint,float>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1076): note: see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_comp_alloc<_Traits>::_Buynode<std::pair<unsigned int,double>>(std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Traits=std::_Tmap_traits<uint,float,std::less<uint>,std::allocator<std::pair<const uint,float>>,false>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xtree(1076): note: see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,void *> *std::_Tree_comp_alloc<_Traits>::_Buynode<std::pair<unsigned int,double>>(std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Traits=std::_Tmap_traits<uint,float,std::less<uint>,std::allocator<std::pair<const uint,float>>,false>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(194): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<unsigned int,double>>(std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Pr=std::less<uint>,
+              _Alloc=std::allocator<std::pair<const uint,float>>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\map(194): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<unsigned int,double>>(std::pair<unsigned int,double> &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Pr=std::less<uint>,
+              _Alloc=std::allocator<std::pair<const uint,float>>
+          ]
+  d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(356): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::insert<std::pair<unsigned int,double>,void>(_Valty &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Valty=std::pair<unsigned int,double>
+          ]
+  d:\pg2019\code\texturemappingnonrigid\src\mapper4d.cpp(356): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const _Kty,_Ty>>>>,bool> std::map<_Kty,_Ty,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::insert<std::pair<unsigned int,double>,void>(_Valty &&)' being compiled
+          with
+          [
+              _Kty=uint,
+              _Ty=float,
+              _Valty=std::pair<unsigned int,double>
+          ]
+  Generating Code...
+  Compiling...
+  texture.cpp
+d:\pg2019\code\texturemappingnonrigid\include\config_utils.h(65): warning C4091: 'typedef ': ignored on left of 'TexMap::Part' when no variable is declared
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(75): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(90): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(112): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(113): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\texture.cpp(230): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\texture.cpp(238): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\texture.cpp(239): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+d:\pg2019\code\texturemappingnonrigid\include\config_utils.h(65): warning C4091: 'typedef ': ignored on left of 'TexMap::Part' when no variable is declared
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(75): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(90): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(112): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(113): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(103): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(104): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(157): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(158): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(183): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(184): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(185): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(320): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(336): warning C4267: '=': conversion from 'size_t' to 'GLuint', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(378): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(379): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(327): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(923): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(1014): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Simplifier.cpp
+d:\pg2019\code\texturemappingnonrigid\include\config_utils.h(65): warning C4091: 'typedef ': ignored on left of 'TexMap::Part' when no variable is declared
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(75): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(90): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(112): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(113): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\simplifier.cpp(9): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\simplifier.cpp(20): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\simplifier.cpp(38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\simplifier.cpp(89): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\simplifier.cpp(117): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\simplifier.cpp(121): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\simplifier.cpp(310): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\simplifier.cpp(324): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\simplifier.cpp(373): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\simplifier.cpp(388): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\simplifier.cpp(408): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\simplifier.cpp(415): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\simplifier.cpp(538): warning C4018: '<': signed/unsigned mismatch
+d:\pg2019\code\texturemappingnonrigid\src\simplifier.cpp(553): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  Renderer.cpp
+d:\pg2019\code\texturemappingnonrigid\include\config_utils.h(65): warning C4091: 'typedef ': ignored on left of 'TexMap::Part' when no variable is declared
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(75): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(90): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(112): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\triangleandvertex.h(113): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(103): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(104): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(157): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(158): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(183): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(184): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(185): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(320): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(336): warning C4267: '=': conversion from 'size_t' to 'GLuint', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(378): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(379): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(327): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(923): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\include\renderer.h(1014): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(108): warning C4305: '=': truncation from 'double' to 'float'
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(1126): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(1127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(1128): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(1249): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(1250): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(1251): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(1305): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(1337): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(1341): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(1342): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(1345): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(1346): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(1696): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(2000): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(2010): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(2011): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(2012): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(2339): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(2349): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(2350): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\pg2019\code\texturemappingnonrigid\src\renderer.cpp(2351): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  config_utils.cpp
+OpenMeshCored.lib(BinaryHelper.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(BinaryHelper.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(IOManager.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(IOManager.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(OMFormat.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(OMFormat.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(BaseReader.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(BaseReader.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(OBJReader.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(OBJReader.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(OFFReader.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(OFFReader.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(OMReader.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(OMReader.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(PLYReader.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(PLYReader.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(STLReader.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(STLReader.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(BaseWriter.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(BaseWriter.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(OBJWriter.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(OBJWriter.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(OFFWriter.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(OFFWriter.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(OMWriter.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(OMWriter.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(PLYWriter.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(PLYWriter.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(STLWriter.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(STLWriter.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(ArrayKernel.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(ArrayKernel.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(PolyConnectivity.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(PolyConnectivity.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(omstream.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(omstream.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(BaseProperty.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(BaseProperty.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+OpenMeshCored.lib(Endian.obj) : warning LNK4099: PDB 'OpenMeshCore.pdb' was not found with 'OpenMeshCored.lib(Endian.obj)' or at 'D:\PG2019\code\bin\Debug\OpenMeshCore.pdb'; linking object as if no debug info
+  TextureMappingNonRigid.vcxproj -> D:\PG2019\code\bin\Debug\TextureMappingNonRigid.exe
+  TextureMappingNonRigid.vcxproj -> D:\PG2019\code\bin\Debug\TextureMappingNonRigid.pdb (Full PDB)
